@@ -1,4 +1,5 @@
-window.Vue = require('vue');
+/*window.Vue = require('vue');*/
+import Vue from 'vue';
 import axios from 'axios';
 import store from './store';
 
