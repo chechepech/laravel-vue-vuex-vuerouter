@@ -64,6 +64,10 @@
   .listing-summary-group {
     padding-bottom: 20px;
   }
+
+  .listing-summary-group h1{
+    color: #616161;
+  }
 .listing-summaries-wrapper {
   overflow: hidden;
 }

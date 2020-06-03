@@ -1,3 +1,38 @@
+# Project Laravel - Website SPA - Vue
+
+## PHP Framework Laravel 7.x
+## MySql Ver 8.0.17
+## Vue.js 2.6.11
+## Vue-router 3.3.2
+## Vuex 3.4.0
+## browser-sync 2.26.7
+## browser-sync-webpack-plugin 2.2.2
+
+> :smile:
+
+- git clone https://github.com/chechepech/laravel-vue-vuex-vuerouter.github
+- cd into your project
+- composer install
+- npm install && npm run dev
+- copy .env.example .env
+- php artisan key:generate
+- create a "empty" database
+- add database information in the .env file
+- php artisan migrate
+- **php artisan migrate:fresh --seed**
+- **npm install && npm run dev**
+
+### Admin: cheche@pech.com - Password: test
+
+
+![Image of VueWEBSITE](APPVUE.png)
+![Image of VueWEBSITE](APPVUE2.png)
+![Image of VueWEBSITE](APPVUE3.png)
+![Image of VueWEBSITE](APPVUE4.png)
+![Image of VueWEBSITE](APPVUE5.png)
+
+:beers: [Cheche Pech](https://www.facebook.com/chechepech).
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">

@@ -5,7 +5,7 @@
       <p>
         <img class="icon" src="/images/logo_grey.png">
         <span>
-          <strong>Vuebnb</strong>. A full-stack Vue.js and Laravel demo app
+          <strong>KANSIN MERCADO LIBRE</strong>. A full-stack Vue.js and Laravel demo app
         </span>
       </p>
     </div>
@@ -31,7 +31,7 @@
     margin-bottom: -6px;
   }
   .hr {
-    border-bottom: 1px solid #dbdbdb;
+    border-bottom: 1px solid #F76A3F;
     margin: 3em 0;
   }
   #footer p {

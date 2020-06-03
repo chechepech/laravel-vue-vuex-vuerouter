@@ -43,10 +43,10 @@
     cursor: pointer;
   }
   .listing-save .fa-heart-o {
-    color: #ffffff;
+    color: #F76A3F;
   }
   .listing-save .fa-heart {
-    color: #ff5a5f;
+    color: #F76A3F;
   }
 
   .listing-save i {
@@ -54,6 +54,6 @@
   }
 
   .listing-save button .fa-heart-o {
-    color: #808080;
+    color: #F76A3F;
   }
 </style>

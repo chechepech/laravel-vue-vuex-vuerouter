@@ -3,12 +3,10 @@
     <form role="form" method="POST" action="/login">
       <input type="hidden" style="display: none;" name="_token" :value="csrf_token">
       <div class="form-control">
-        <input id="email" type="email" name="email"
-          placeholder="Email Address" required autofocus>
+        <input id="email" type="email" name="email" placeholder="Email Address" required autofocus>
       </div>
       <div class="form-control">
-        <input id="password" type="password" name="password"
-          placeholder="Password" required>
+        <input id="password" type="password" name="password" placeholder="Password" required>
       </div>
       <div class="form-control">
         <button type="submit">Log in</button>
@@ -19,9 +17,7 @@
 <script type="text/javascript">
 export default {
     data() {
-      return {
-        csrf_token: window.csrf_token
-      }
+      return { csrf_token: window.csrf_token }
     }
   }
 </script>
@@ -51,16 +47,30 @@ export default {
     font-weight: 300;
   }
 
+  input[type=email]:focus, input[type=password]:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid #f76a3f;
+  }
+
+  input[type=email]:focus, input[type=password]:focus {
+  box-shadow: 0 0 5px rgba(247, 106, 63, 1);
+  border: 1px solid rgba(247, 106, 63, .5);
+  }
+
   #login input {
     background-color: transparent;
-    padding: 11px;
-    border: 1px solid #dbdbdb;
-    border-radius: 2px;
-    box-sizing:border-box
+    padding: 10px;
+    outline: none;
+    box-sizing:border-box;
   }
 
   #login button {
-    background-color: #4fc08d;
+    background-color: #F76A3F;
     color: #ffffff;
     cursor: pointer;
     border: #4fc08d;

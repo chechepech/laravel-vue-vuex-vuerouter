@@ -3809,7 +3809,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#footer {\n  margin-bottom: 3em;\n}\n#footer .icon {\n  height: 23px;\n  display: inline-block;\n  margin-bottom: -6px;\n}\n.hr {\n  border-bottom: 1px solid #dbdbdb;\n  margin: 3em 0;\n}\n#footer p {\n  font-size: 15px;\n  color: #767676 !important;\n  display: flex;\n}\n#footer p img {\n  padding-right: 6px;\n}\n", ""]);
+exports.push([module.i, "\n#footer {\n  margin-bottom: 3em;\n}\n#footer .icon {\n  height: 23px;\n  display: inline-block;\n  margin-bottom: -6px;\n}\n.hr {\n  border-bottom: 1px solid #F76A3F;\n  margin: 3em 0;\n}\n#footer p {\n  font-size: 15px;\n  color: #767676 !important;\n  display: flex;\n}\n#footer p img {\n  padding-right: 6px;\n}\n", ""]);
 
 // exports
 
@@ -3828,7 +3828,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.listing-save {\n  position: absolute;\n  top: 20px;\n  right: 20px;\n  cursor: pointer;\n}\n.listing-save .fa-heart-o {\n  color: #ffffff;\n}\n.listing-save .fa-heart {\n  color: #ff5a5f;\n}\n.listing-save i {\n  padding-right: 4px;\n}\n.listing-save button .fa-heart-o {\n  color: #808080;\n}\n", ""]);
+exports.push([module.i, "\n.listing-save {\n  position: absolute;\n  top: 20px;\n  right: 20px;\n  cursor: pointer;\n}\n.listing-save .fa-heart-o {\n  color: #F76A3F;\n}\n.listing-save .fa-heart {\n  color: #F76A3F;\n}\n.listing-save i {\n  padding-right: 4px;\n}\n.listing-save button .fa-heart-o {\n  color: #F76A3F;\n}\n", ""]);
 
 // exports
 
@@ -3866,7 +3866,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.listing-summary-group {\n    padding-bottom: 20px;\n}\n.listing-summaries-wrapper {\n  overflow: hidden;\n}\n.listing-summaries {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    transition: transform 0.5s;\n}\n.listing-summaries > .listing-summary {\n    margin-right: 15px;\n}\n.listing-summaries > .listing-summary:last-child {\n    margin-right: 0;\n}\n.listing-carousel {\n  position: relative;\n}\n.listing-carousel .controls {\n  display: flex;\n  justify-content: space-between;\n  position: absolute;\n  top: calc(50% - 45px);\n  left: -45px;\n  width: calc(100% + 90px);\n}\n.listing-carousel .controls .carousel-control{\n  color: #c5c5c5;\n  font-size: 1.5rem;\n  cursor: pointer;\n}\n", ""]);
+exports.push([module.i, "\n.listing-summary-group {\n    padding-bottom: 20px;\n}\n.listing-summary-group h1{\n    color: #616161;\n}\n.listing-summaries-wrapper {\n  overflow: hidden;\n}\n.listing-summaries {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    transition: transform 0.5s;\n}\n.listing-summaries > .listing-summary {\n    margin-right: 15px;\n}\n.listing-summaries > .listing-summary:last-child {\n    margin-right: 0;\n}\n.listing-carousel {\n  position: relative;\n}\n.listing-carousel .controls {\n  display: flex;\n  justify-content: space-between;\n  position: absolute;\n  top: calc(50% - 45px);\n  left: -45px;\n  width: calc(100% + 90px);\n}\n.listing-carousel .controls .carousel-control{\n  color: #c5c5c5;\n  font-size: 1.5rem;\n  cursor: pointer;\n}\n", ""]);
 
 // exports
 
@@ -3885,7 +3885,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#login form {\n    padding-top: 40px;\n}\n@media (min-width: 744px) {\n#login form {\n      padding-top: 80px;\n}\n}\n#login .form-control {\n    margin-bottom: 1em;\n}\n#login input[type=email],\n  #login input[type=password],\n  #login button,\n  #login label {\n    width: 100%;\n    font-size: 19px !important;\n    line-height: 24px;\n    color: #484848;\n    font-weight: 300;\n}\n#login input {\n    background-color: transparent;\n    padding: 11px;\n    border: 1px solid #dbdbdb;\n    border-radius: 2px;\n    box-sizing:border-box\n}\n#login button {\n    background-color: #4fc08d;\n    color: #ffffff;\n    cursor: pointer;\n    border: #4fc08d;\n    border-radius: 4px;\n    padding-top: 12px;\n    padding-bottom: 12px;\n}\n", ""]);
+exports.push([module.i, "\n#login form {\n    padding-top: 40px;\n}\n@media (min-width: 744px) {\n#login form {\n      padding-top: 80px;\n}\n}\n#login .form-control {\n    margin-bottom: 1em;\n}\n#login input[type=email],\n  #login input[type=password],\n  #login button,\n  #login label {\n    width: 100%;\n    font-size: 19px !important;\n    line-height: 24px;\n    color: #484848;\n    font-weight: 300;\n}\ninput[type=email]:focus, input[type=password]:focus {\n    -webkit-transition: all 0.30s ease-in-out;\n    -moz-transition: all 0.30s ease-in-out;\n    -ms-transition: all 0.30s ease-in-out;\n    -o-transition: all 0.30s ease-in-out;\n    transition: all 0.30s ease-in-out;\n    outline: none;\n    border: 1px solid #f76a3f;\n}\ninput[type=email]:focus, input[type=password]:focus {\n  box-shadow: 0 0 5px rgba(247, 106, 63, 1);\n  border: 1px solid rgba(247, 106, 63, .5);\n}\n#login input {\n    background-color: transparent;\n    padding: 10px;\n    outline: none;\n    box-sizing:border-box;\n}\n#login button {\n    background-color: #F76A3F;\n    color: #ffffff;\n    cursor: pointer;\n    border: #4fc08d;\n    border-radius: 4px;\n    padding-top: 12px;\n    padding-bottom: 12px;\n}\n", ""]);
 
 // exports
 
@@ -22299,7 +22299,7 @@ var render = function() {
               attrs: { src: "/images/logo.png" }
             }),
             _vm._v(" "),
-            _c("h1", [_vm._v("Vuebnb")])
+            _c("h1", [_vm._v("KANASIN MERCADO LIBRE")])
           ]),
           _vm._v(" "),
           _c("ul", { staticClass: "links" }, [
@@ -22308,7 +22308,7 @@ var render = function() {
                   "li",
                   [
                     _c("router-link", { attrs: { to: { name: "saved" } } }, [
-                      _vm._v("Saved")
+                      _vm._v("SAVED")
                     ])
                   ],
                   1
@@ -22317,7 +22317,7 @@ var render = function() {
             _vm._v(" "),
             _vm.$store.state.auth
               ? _c("li", [
-                  _c("a", { on: { click: _vm.logout } }, [_vm._v("Log Out")]),
+                  _c("a", { on: { click: _vm.logout } }, [_vm._v("LOGOUT")]),
                   _vm._v(" "),
                   _c(
                     "form",
@@ -22338,7 +22338,7 @@ var render = function() {
                   "li",
                   [
                     _c("router-link", { attrs: { to: { name: "login" } } }, [
-                      _vm._v("Log In")
+                      _vm._v("LOGIN")
                     ])
                   ],
                   1
@@ -22419,7 +22419,7 @@ var staticRenderFns = [
       }),
       _vm._v(" "),
       _c("span", [
-        _c("strong", [_vm._v("Vuebnb")]),
+        _c("strong", [_vm._v("KANSIN MERCADO LIBRE")]),
         _vm._v(". A full-stack Vue.js and Laravel demo app\n      ")
       ])
     ])

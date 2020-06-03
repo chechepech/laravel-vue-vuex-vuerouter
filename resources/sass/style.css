@@ -51,7 +51,7 @@ padding: 0 12px;
 }
 
 #toolbar h1 {
-  color: #4fc08d;
+  color: #F76A3F;
   display: inline-block;
   font-size: 28px;
   margin: 0;
@@ -86,7 +86,7 @@ padding: 0 12px;
   }
 
   #toolbar ul li a:hover {
-    border-bottom: 2px solid #484848;
+    border-bottom: 2px solid #f76a3f;
     padding-bottom: 6px;
   }
 
@@ -106,7 +106,7 @@ padding: 0 12px;
 
 hr {
   border: 0;
-  border-top: 1px solid #dce0e0;
+  border-top: 1px solid #F76A3F;
 }
 
 .about {
@@ -136,11 +136,11 @@ hr {
 }
 .header .header-img button {
   border-radius: 4px;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #F76A3F;
   font-weight: bold;
   line-height: 1.43;
-  background: #ffffff;
-  color: #484848;
+  background: #FFFFFF;
+  color: #F76A3F;
   padding: 7px 18px;
   font-size: 14px;
 }
@@ -205,7 +205,7 @@ button {
 .about button.more {
   background: transparent;
   border: 0;
-  color: #008489;
+  color: #F76A3F;
   padding: 0;
   font-size: 17px;
   font-weight: bold;

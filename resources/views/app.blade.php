@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{csrf_token()}}">
     <title>{{config('app.name', 'APPVUE | CHECHEPECH') }}</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}" type="text/css">
-    <link rel="icon" type="image/x-icon" href="{{asset('favicon.ico')}}">
+    <link rel="icon" type="image/png" href="{{asset('favicon.png')}}">
 </head>
 <body>
     <div id="app"></div>
