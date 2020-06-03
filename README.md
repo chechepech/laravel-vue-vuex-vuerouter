@@ -1,12 +1,8 @@
-# Project Laravel - Website SPA - Vue
+# Project Laravel 7- Website SPA - Vue - VueRoute - Vuex - UPDATED
 
-## PHP Framework Laravel 7.x
-## MySql Ver 8.0.17
-## Vue.js 2.6.11
-## Vue-router 3.3.2
-## Vuex 3.4.0
-## browser-sync 2.26.7
-## browser-sync-webpack-plugin 2.2.2
+### PHP Framework Laravel 7.x
+### MySql Ver 8.0.17
+### Vue.js 2.6.11
 
 > :smile:
 
@@ -32,6 +28,11 @@
 ![Image of VueWEBSITE](APPVUE5.png)
 
 :beers: [Cheche Pech](https://www.facebook.com/chechepech).
+
+References:
+#### Anthony Gore - Full-Stack Vue.js 2 and Laravel *7*
+
+![Image of VueWEBSITE](APPVUE_.png)
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
